@@ -30,6 +30,9 @@ gem 'rspec'
 gem 'database_cleaner'
 gem 'rspec-rails', '~> 3.5'
 gem 'sqlite3'
+gem 'factory_girl_rails', '~> 4.0'
+gem 'shoulda-matchers', '~> 3.1'
+gem 'faker'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -39,9 +42,9 @@ group :development, :test do
 end
 
 group :test do
-  gem 'factory_girl_rails', '~> 4.0'
-  gem 'shoulda-matchers', '~> 3.1'
-  gem 'faker'
+  # gem 'factory_girl_rails', '~> 4.0'
+  # gem 'shoulda-matchers', '~> 3.1'
+  # gem 'faker'
   # gem 'database_cleaner'
 end
 
