@@ -51,6 +51,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'database_cleaner'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
